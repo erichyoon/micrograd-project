@@ -1,6 +1,6 @@
 # micrograd-project
 
-A from-scratch scalar autograd engine and tiny neural network, trained on an interleaved-spirals dataset to learn a nonlinear decision boundary — inspired by [Karpathy's micrograd](https://github.com/karpathy/micrograd). Every forward pass, backward pass, and weight update runs through hand-rolled `Value` objects with no PyTorch or NumPy math inside the model itself.
+A from-scratch scalar autograd engine and tiny neural network, trained on an interleaved-spirals dataset to learn a nonlinear decision boundary - inspired by [Karpathy's micrograd](https://github.com/karpathy/micrograd). Every forward pass, backward pass, and weight update runs through hand-rolled `Value` objects with no PyTorch or NumPy math inside the model itself.
 
 ![Decision boundary evolving during training](training.gif)
 

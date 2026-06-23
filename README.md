@@ -4,7 +4,7 @@ A from-scratch scalar autograd engine and tiny neural network, trained on an int
 
 ![Decision boundary evolving during training](training.gif)
 
-## What I built from scratch
+## What I built
 
 - **`engine.py`** — `Value` class with operator overloading (`+`, `-`, `*`, `/`, `**`, `tanh`), computation-graph tracking, and reverse-mode `.backward()` via topological sort and the chain rule
 - **`nn.py`** — `Neuron`, `Layer`, and `MLP` built entirely from `Value` objects (weights, biases, and all computations)
